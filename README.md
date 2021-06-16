@@ -2,7 +2,7 @@
 
 Librería creada para integrar la PokeAPI.
 
-## Visitá la [DEMO](poketotox.netlify.app).
+## Visitá la [DEMO](https://poketotox.netlify.app).
 
 ## Comenzando 🚀
 
