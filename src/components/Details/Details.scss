@@ -1,0 +1,234 @@
+@import "../../scss/index.scss";
+
+.details {
+  &__card {
+    position: relative;
+    &-header {
+      position: relative;
+      &_top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        &-btn {
+          background-color: rgba($color: #000000, $alpha: 0);
+          border: none;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 15px;
+          &_icon {
+            height: auto;
+            width: 30px;
+            color: #fff;
+          }
+        }
+        &-name {
+          text-transform: uppercase;
+          font-size: 20px;
+          font-weight: bold;
+          color: #fff;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%);
+        }
+        &-id {
+          margin-right: 15px;
+          color: #fff;
+        }
+      }
+      &_img {
+        text-align: end;
+        img {
+          width: auto;
+          height: 150px;
+        }
+      }
+    }
+    &-img {
+      position: absolute;
+      left: 50%;
+      top: 100px;
+      transform: translate(-50%);
+      display: flex;
+      img {
+        width: auto;
+        height: 80px;
+      }
+    }
+    &-data {
+      &_types {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        &-item {
+          margin: 10px;
+          padding: 10px;
+          border-radius: 20px;
+          p {
+            margin: 0;
+            font-weight: bold;
+            color: #fff;
+            font-size: 16px;
+            text-transform: capitalize;
+          }
+        }
+      }
+      &_about {
+        &-title {
+          text-align: center;
+          font-weight: bold;
+          margin-top: 0;
+        }
+        &-data {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: space-evenly;
+          &_weight {
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            &-top {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              height: 45px;
+            }
+            &-bottom {
+              color: $font-grey;
+            }
+          }
+          &_height {
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            &-top {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              height: 45px;
+            }
+            &-bottom {
+              color: $font-grey;
+            }
+          }
+          &_moves {
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            p {
+              margin: 0;
+              text-transform: capitalize;
+              text-align: center;
+            }
+            &-bottom {
+              color: $font-grey;
+            }
+          }
+        }
+      }
+      &_stats {
+        &-item {
+          display: flex;
+          align-items: center;
+          position: relative;
+          height: 25px;
+          flex-direction: column;
+          margin-top: 5px;
+          &_name {
+            text-transform: capitalize;
+            margin: 0;
+            font-size: 12px;
+            color: $font-grey;
+          }
+          &_data {
+            margin: 0;
+            position: absolute;
+            left: 10px;
+            text-align: end;
+          }
+          &_bar {
+            overflow: hidden;
+            height: 15px;
+            width: 250px;
+            border: 1px solid $font-grey;
+            border-radius: 10px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            &-progress {
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.colorModal {
+  &-grass {
+    background-color: $type-grass;
+  }
+  &-poison {
+    background-color: $type-poison;
+  }
+  &-fairy {
+    background-color: $type-fairy;
+  }
+  &-fire {
+    background-color: $type-fire;
+  }
+  &-normal {
+    background-color: $type-normal;
+  }
+  &-electric {
+    background-color: $type-electric;
+  }
+  &-bug {
+    background-color: $type-bug;
+  }
+  &-water {
+    background-color: $type-water;
+  }
+  &-ground {
+    background-color: $type-ground;
+  }
+  &-fighting {
+    background-color: $type-fighting;
+  }
+  &-psychic {
+    background-color: $type-psychic;
+  }
+  &-rock {
+    background-color: $type-rock;
+  }
+  &-ghost {
+    background-color: $type-ghost;
+  }
+  &-ice {
+    background-color: $type-ice;
+  }
+  &-dragon {
+    background-color: $type-dragon;
+  }
+  &-dark {
+    background-color: $type-dark;
+  }
+  &-steel {
+    background-color: $type-steel;
+  }
+  &-flying {
+    background-color: $type-flying;
+  }
+}

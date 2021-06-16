@@ -1,0 +1,32 @@
+@import "../../scss/index.scss";
+
+.app-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.12);
+  left: 0;
+  top: 0;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  &__img {
+    margin-top: 10px;
+    height: 40px;
+  }
+}
+.icon {
+  position: absolute;
+  right: 5%;
+}
+.moon {
+  margin-top: 5px;
+}
+.language {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 5%;
+}

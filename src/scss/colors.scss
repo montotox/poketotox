@@ -1,0 +1,50 @@
+$themes: (
+  light: (
+    color-background: #f7f7f7,
+    color-card: #fff,
+    text-primary: #000,
+    text-secundary: #a2a2a2,
+  ),
+  dark: (
+    color-background: #303030,
+    color-card: #424242,
+    text-primary: #fff,
+    text-secundary: #a2a2a2,
+  ),
+);
+
+$font-light: #fff;
+$font-grey: #a2a2a2;
+$font-dark: #000;
+
+$background-light: #f7f7f7;
+$background-grey-light: #fafafa;
+$background-input: #f9f9f9;
+
+$border-grey: #dbdbdb;
+$border-dark: #000;
+
+$action: #0095f6;
+$danger: #ed4956;
+
+$primary: #f9b91a;
+$secundary: #886c96;
+
+$type-normal: #aaa67f;
+$type-fighting: #c12239;
+$type-flying: #a891ec;
+$type-poison: #a43e9e;
+$type-ground: #dec16b;
+$type-rock: #b69e31;
+$type-bug: #a7b723;
+$type-ghost: #70559b;
+$type-steel: #b7b9d0;
+$type-fire: #f57d31;
+$type-water: #6493eb;
+$type-grass: #74cb48;
+$type-electric: #f9cf30;
+$type-psychic: #fb5584;
+$type-ice: #9ad6df;
+$type-dragon: #7037ff;
+$type-dark: #75574c;
+$type-fairy: #e69eac;

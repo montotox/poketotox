@@ -1,0 +1,201 @@
+@import "../../scss/index.scss";
+
+.card {
+  border-radius: 10px;
+  border: solid;
+  border-color: $type-electric;
+  width: 124px;
+  height: 132px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin: 15px;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  &__header {
+    width: 90%;
+    margin: 5px;
+    top: 2px;
+    right: 2px;
+    color: $font-grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-btn {
+      background-color: rgba($color: #000000, $alpha: 0);
+      border: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-emptyHeart {
+      width: 30px;
+      height: auto;
+    }
+    &-fillHeart {
+      width: 30px;
+      height: auto;
+      color: $type-fire;
+    }
+  }
+  &__picture {
+    position: absolute;
+    right: 50%;
+    bottom: 25%;
+    transform: translate(50%);
+    img {
+      width: 72px;
+      height: 72px;
+    }
+  }
+  &__name {
+    width: 102%;
+    height: 30px;
+    background-color: $type-electric;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      margin: 0;
+      text-align: center;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-phone) {
+  .card {
+    width: 297px;
+    height: 316px;
+    &__picture {
+      img {
+        width: auto;
+        height: 200px;
+      }
+    }
+  }
+}
+
+.color {
+  &-grass {
+    border-color: $type-grass;
+    .card__name {
+      background-color: $type-grass;
+    }
+  }
+  &-poison {
+    border-color: $type-poison;
+    .card__name {
+      background-color: $type-poison;
+    }
+  }
+  &-fairy {
+    border-color: $type-fairy;
+    .card__name {
+      background-color: $type-fairy;
+    }
+  }
+  &-fire {
+    border-color: $type-fire;
+    .card__name {
+      background-color: $type-fire;
+    }
+  }
+  &-normal {
+    border-color: $type-normal;
+    .card__name {
+      background-color: $type-normal;
+    }
+  }
+  &-electric {
+    border-color: $type-electric;
+    .card__name {
+      background-color: $type-electric;
+    }
+  }
+  &-bug {
+    border-color: $type-bug;
+    .card__name {
+      background-color: $type-bug;
+    }
+  }
+  &-water {
+    border-color: $type-water;
+    .card__name {
+      background-color: $type-water;
+    }
+  }
+  &-ground {
+    border-color: $type-ground;
+    .card__name {
+      background-color: $type-ground;
+    }
+  }
+  &-fighting {
+    border-color: $type-fighting;
+    .card__name {
+      background-color: $type-fighting;
+    }
+  }
+  &-psychic {
+    border-color: $type-psychic;
+    .card__name {
+      background-color: $type-psychic;
+    }
+  }
+
+  &-rock {
+    border-color: $type-rock;
+    .card__name {
+      background-color: $type-rock;
+    }
+  }
+
+  &-ghost {
+    border-color: $type-ghost;
+    .card__name {
+      background-color: $type-ghost;
+    }
+  }
+
+  &-ice {
+    border-color: $type-ice;
+    .card__name {
+      background-color: $type-ice;
+    }
+  }
+
+  &-dragon {
+    border-color: $type-dragon;
+    .card__name {
+      background-color: $type-dragon;
+    }
+  }
+
+  &-dark {
+    border-color: $type-dark;
+    .card__name {
+      background-color: $type-dark;
+    }
+  }
+
+  &-steel {
+    border-color: $type-steel;
+    .card__name {
+      background-color: $type-steel;
+    }
+  }
+
+  &-flying {
+    border-color: $type-flying;
+    .card__name {
+      background-color: $type-flying;
+    }
+  }
+}

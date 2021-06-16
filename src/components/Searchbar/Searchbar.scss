@@ -1,0 +1,25 @@
+@import "../../scss/index.scss";
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  &__input {
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgba($color: #fff, $alpha: 0.12);
+    padding: 5px;
+    margin: 10px;
+  }
+
+  &__btn {
+    background-color: rgba($color: #000000, $alpha: 0);
+    border: none;
+    padding: 0;
+    &-icon {
+      height: 25px;
+      width: auto;
+    }
+  }
+}
